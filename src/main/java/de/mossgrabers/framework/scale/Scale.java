@@ -1,6 +1,7 @@
 // Written by Jürgen Moßgraber - mossgrabers.de
 // (c) 2017-2018
 // Licensed under LGPLv3 - http://www.gnu.org/licenses/lgpl-3.0.txt
+// Edited by GratefulTony to add dope scales
 
 package de.mossgrabers.framework.scale;
 
@@ -27,6 +28,26 @@ public enum Scale
         11
     }),
 
+    /** A Pygmy scale. */
+    PYGMY("Pygmy", new int []
+    {      //0   1   2   3   4   5    6   7   8   9   10  11  12 13  14   15
+        0, //E3 (f) F#3  G3 (g#) (a) (a#) B3 (c) (c#) D4 (d#) E4 (f) F#4  G4
+        2,
+        3,
+        7,
+        10
+    }),
+    
+    /** An Akebono  scale. */
+    PYGMY("AKEBONO", new int []
+    {      //0   1   2   3   4   5    6   7   8   9    10   11  12 13  14   15
+        0, //E3 (f) F#3  G3 (g#) (a) (a#) B3  c  (c#) (D4) (d#) E4 (f) F#4  G4
+        2,
+        3,
+        7,
+        8
+    }),
+    
     /** The Minor scale. */
     MINOR("Minor", new int []
     {
