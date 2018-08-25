@@ -39,7 +39,7 @@ public enum Scale
     }),
     
     /** An Akebono  scale. */
-    PYGMY("AKEBONO", new int []
+    AKEBONO("AKEBONO", new int []
     {      //0   1   2   3   4   5    6   7   8   9    10   11  12 13  14   15
         0, //E3 (f) F#3  G3 (g#) (a) (a#) B3  c  (c#) (D4) (d#) E4 (f) F#4  G4
         2,
